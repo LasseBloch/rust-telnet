@@ -1,0 +1,12 @@
+[package]
+name = "telnet"
+version = "0.1.0"
+authors = ["Lasse Bloch Lauritsen  <lassebloch@gmail.com"]
+
+[lib]
+name = "telnet_server"
+path = "src/telnet_server.rs"
+
+[[bin]]
+name = "example"
+path = "example.rs"
